@@ -86,8 +86,7 @@ img {
 
 .row-bottom {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
     width: 100vw;
     background-color: rgb(61, 61, 61);
 }
