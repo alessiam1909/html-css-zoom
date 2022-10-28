@@ -45,11 +45,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 
 .container-immagini {
     width: 80%;
-    overflow: auto;
 }
 
 .row {
@@ -78,10 +78,16 @@ img {
 
 /* creazione footer */
 
+.container-footer {
+    position: absolute;
+    z-index: 1;
+    height: 10vh;
+}
+
 .row-bottom {
     display: flex;
     justify-content: space-between;
-    height: 10vh;
+    
     width: 100vw;
     background-color: rgb(61, 61, 61);
 }
