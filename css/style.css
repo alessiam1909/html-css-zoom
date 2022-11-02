@@ -12,8 +12,8 @@ body {
 /* creazione header */
 
 .container-top {
-    height: 10vh;
-    width: 100vw;
+    height: 70px;
+    width: 100%;
 }
 
 .background-black {
@@ -40,8 +40,8 @@ body {
 /* creazione corpo pagina */
 
 .container-corpo {
-    width: 100vw;
-    height: 80vh;
+    width: 100%;
+    height: calc(100vh - 190px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +64,7 @@ body {
 img {
     width: 100%;
     padding: 5px;
+    object-fit: cover;
 }
 
 .col span {
@@ -81,14 +82,14 @@ img {
 .container-footer {
     position: absolute;
     z-index: 1;
-    height: 10vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .row-bottom {
     display: flex;
     justify-content: space-between; 
     background-color: rgb(61, 61, 61);
+    height: 120px;
 }
 
 .col-bottom1, .col-bottom2, .col-bottom3 {
