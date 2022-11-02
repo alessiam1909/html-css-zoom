@@ -41,7 +41,7 @@ body {
 
 .container-corpo {
     width: 100%;
-    height: calc(100vh - 190px);
+    height: calc(100vh - 160px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ img {
     display: flex;
     justify-content: space-between; 
     background-color: rgb(61, 61, 61);
-    height: 120px;
+    height: 90px;
 }
 
 .col-bottom1, .col-bottom2, .col-bottom3 {
